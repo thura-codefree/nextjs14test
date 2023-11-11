@@ -5,7 +5,7 @@ import localFont from "next/font/local";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Page() {
+export default function Page({ status }: { status: string }) {
   return (
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
@@ -17,7 +17,7 @@ export default function Page() {
           {/* <div className={styles.shape}></div> */}
           <AcmeLogo />
           <p className="text-xl text-gray-800 md:text-3xl md:leading-normal">
-            <strong>Welcome to Acme.</strong> This is the example for the{" "}
+            <strong>Welcome to Next.js 14 .</strong> This is the example for the{" "}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Next.js Learn Course
             </a>
