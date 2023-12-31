@@ -9,7 +9,7 @@ import { fetchInvoicesPages } from "@/app/lib/data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Invoice | Acme Dashboard",
+  title: "Invoice",
 };
 
 export default async function Page({
